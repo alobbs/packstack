@@ -62,7 +62,6 @@ def initLogging (debug):
         logging.error(traceback.format_exc())
         raise Exception(output_messages.ERR_EXP_FAILED_INIT_LOGGER)
 
-
 def _getInputFromUser(param):
     """
     this private func reads the data from the user
